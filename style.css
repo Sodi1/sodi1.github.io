@@ -12,9 +12,9 @@ body{
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
-  background: #95a5a6;
+  background: red;
   text-align: center;
-  border-radius: 50px;
+  border-radius: 100px;
   }
   
  .box h2{
