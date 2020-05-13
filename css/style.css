@@ -112,13 +112,23 @@ h1, h2, h3, h4, h5,
   background: #000; }
 
   @media screen and (max-width:1140px) {
-    #blob_1 {
+      #blob_1 {
+          display: none;
+      }
+      #blob_2{
         display: none;
+      }
     }
-    #blob_2{
-      display: none;
-    }
+
+
+
+
+@media screen and (max-width:690px) {
+  #blob_2_first{
+    padding-left: 30%;
+  }
 }
+
 
 .form-control {
   height: 48px;
