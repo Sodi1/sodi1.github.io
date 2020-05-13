@@ -1,21 +1,423 @@
-<html lang="en" dir="ltr">
+<!DOCTYPE html>
+<html lang="en">
   <head>
+    <title>Hack in home</title>
     <meta charset="utf-8">
-	<!-- --><link rel="stylesheet" href="style.css"> 
-    <title>my lab2</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    
+    <link href="https://fonts.googleapis.com/css?family=Muli:300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="fonts/icomoon/style.css">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" type="text/css" href="semantic/dist/semantic.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+
+    <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+
+    <link rel="stylesheet" href="css/aos.css">
+
+    <link rel="stylesheet" href="css/style.css">
   </head>
+  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+  
+  <div class="site-wrap">
 
-<form class="box" action="index.html" method="post">
-<h1  align="center"> Ввод данных </h1>
-<h>a =</h>
-<input type="text" id="myA" placeholder="Input a">
-<br>
-<h>b =</h>
-<input  type="text" id="myB" placeholder="Input b">
-<br>
-<!--<button type="button" id="btn" name="Summ"> Считать </button>-->
-<input type="button" id="btn" value="Считать"> 
-<script src="scriptmy.js"></script> 
+    <div class="site-mobile-menu site-navbar-target">
+      <div class="site-mobile-menu-header">
+        <div class="site-mobile-menu-close mt-3">
+          <span class="icon-close2 js-menu-toggle"></span>
+        </div>
+      </div>
+      <div class="site-mobile-menu-body"></div>
+    </div>
+   
+    
+    <header class="site-navbar py-4 js-sticky-header site-navbar-target" role="banner">
+      
+      <div class="container-fluid">
+        <div class="d-flex align-items-center">
+          <div class="site-logo mr-auto w-25"><a href="index.html">#hackinhome</a></div>
 
-</form>
+          <div class="mx-auto text-center">
+            <nav class="site-navigation position-relative text-right" role="navigation">
+              <ul class="site-menu main-menu js-clone-nav mx-auto d-none d-lg-block  m-0 p-0">
+                <li><a href="#home-section" class="nav-link">Домой</a></li>
+                <li><a href="#programs-section" class="nav-link">О хакатоне</a></li>
+                <li><a href="#track-section" class="nav-link">Треки</a></li>
+                <li><a href="#teachers-section" class="nav-link">Жюри</a></li>
+                <li><a href="#why-section" class="nav-link">Зачем?</a></li>
+                <li><a href="#partners-section" class="nav-link">Партнеры</a></li>
+              </ul>
+            </nav>
+          </div>
 
+          <div class="ml-auto w-25">
+            <nav class="site-navigation position-relative text-right" role="navigation">
+              <ul class="site-menu main-menu site-menu-dark js-clone-nav mr-auto d-none d-lg-block m-0 p-0">
+                <li class="cta"><a href="#footer-section" class="nav-link"><span>Обратная связь</span></a></li>
+              </ul>
+            </nav>
+            <a href="#" class="d-inline-block d-lg-none site-menu-toggle js-menu-toggle text-black float-right"><span class="icon-menu h3"></span></a>
+          </div>
+        </div>
+      </div>
+      
+    </header>
+
+    <div class="intro-section" id="home-section">
+      <div class="slide-1" style="background-image: url('images/stankin.png');" data-stellar-background-ratio="0.5">
+        <div class="container" style="margin-left: auto">
+          <div class="row align-items-center">
+            <div class="col-12">
+              <div class="row align-items-center">
+                <div class="col-lg-6 mb-4">
+                  <h1  data-aos="fade-up" data-aos-delay="100">Онлайн Хакатон Hack iN Home 29-31 мая для студентов КСУ </h1>
+                  <p class="mb-4"  data-aos="fade-up" data-aos-delay="400">… и не только!</p>
+                  <p data-aos="fade-up" data-aos-delay="300"><a href="https://forms.gle/HtHJDzLzpiyDvkuX6" class="btn btn-primary py-3 px-5 btn-pill">Регистрация</a></p>
+
+                </div>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="site-section" id="programs-section">
+      <div class="container">
+        <div class="row mb-5 justify-content-center">
+          <div class="col-lg-7 text-center"  data-aos="fade-up" data-aos-delay="">
+            <h2 class="section-title">О хакатоне</h2>
+            <p> Мы знаем, что среди студентов нашей кафедры очень много скрытых талантов в области IT, дизайна, мастеров питча, крутых инженеров, которым просто необходима возможность раскрыться и показать себя:)  Ну а когда, как не во время всеобщей самоизоляции? Поэтому мы решили провести для Вас онлайн Хакатон <span style="color: red">#hackinhome!</span></p>
+          </div>
+        </div>
+
+        <div class="row mb-5 align-items-center">
+          <div class="col-lg-7 mb-5" data-aos="fade-up" data-aos-delay="100">
+           <img src="images/industry.png" align="center" style="width: 30%; height: 30%;" alt="Image" class="img-fluid"> 
+          </div>
+          <div class="col-lg-4 ml-auto" data-aos="fade-up" data-aos-delay="200">
+            <h2 class="text-black mb-4">Hack iN Home</h2>
+            <p class="mb-4"></p>
+            
+            <div class="d-flex align-items-center custom-icon-wrap mb-4">
+              <span class="custom-icon-inner mr-3"><img src="images/flag.svg" class="icon"></img></span>
+              <div><h3 class="m-0"> >36 часов на разработку </h3></div>
+            </div>
+
+            <div class="d-flex align-items-center custom-icon-wrap mb-3">
+              <span class="custom-icon-inner mr-3"><img src="images/flag.svg" class="icon"></img></span>
+              <div><h3 class="m-0">3 трека</h3></div>
+            </div>
+			
+            <div class="d-flex align-items-center custom-icon-wrap mb-3">
+              <span class="custom-icon-inner mr-3"><img src="images/flag.svg" class="icon"></img></span>
+              <div><h3 class="m-0">Крутое жюри</h3></div>
+              
+            </div>
+          </div>
+        </div>
+
+        <div class="row mb-5 align-items-center">
+          <div class="col-lg-7 mb-5 order-1 order-lg-2" data-aos="fade-up" data-aos-delay="100">
+            <img src="images/Hackathon_Principe.png" alt="Image" align="center" style="width: 110%; height: 110%;" >
+          </div>
+           <div class="col-lg-4 mr-auto order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
+            <h2 class="text-black mb-4">Активности</h2>
+           <!-- <p class="mb-4">Во время хакатона будут следующие активности</p>-->
+
+            <div class="d-flex align-items-center custom-icon-wrap mb-3">
+              <span class="custom-icon-inner mr-3"><img src="images/flag.svg" class="icon"></img></span>
+              <div><h3 class="m-0">IT Quiz</h3></div>
+            </div> 
+
+            <div class="d-flex align-items-center custom-icon-wrap mb-3">
+              <span class="custom-icon-inner mr-3"><img src="images/flag.svg" class="icon"></img></span>
+              <div><h3 class="m-0">Secret Quest</h3></div>
+            </div> 
+
+            <div class="d-flex align-items-center custom-icon-wrap">
+              <span class="custom-icon-inner mr-3"><img src="images/flag.svg" class="icon"></img></span>
+              <div><h3 class="m-0">#BestFoto</h3></div>
+            </div>
+            
+
+          </div>
+        </div>
+
+        <div class="row mb-5 align-items-center">
+          <div class="col-lg-7 mb-5" data-aos="fade-up" data-aos-delay="100">
+            <img src="images/app.svg" alt="Image" class="img-fluid" style="width: 30%; height: 30%">
+          </div>
+          <div class="col-lg-4 ml-auto" data-aos="fade-up" data-aos-delay="200">
+            <h2 class="text-black mb-4">Возможности</h2>
+            
+            <div class="d-flex align-items-center custom-icon-wrap mb-3">
+              <span class="custom-icon-inner mr-2"><img src="images/flag.svg" class="icon"></img></span>
+              <div><h3 class="m-0">Попасть в комнаду СТАНКИНа для участия <br> в Хакатоне Цифровой прорыв 2020</h3></div>
+            </div>
+
+            <div class="d-flex align-items-center custom-icon-wrap">
+              <span class="custom-icon-inner mr-2"><img src="images/flag.svg" class="icon"></img></span>
+              <div><h3 class="m-0">Получить диплом победителя и <br>сертификат участника</h3></div>
+            </div>
+            
+            <div class="d-flex align-items-center custom-icon-wrap mb-3">
+              <span class="custom-icon-inner mr-3"><img src="images/flag.svg" class="icon"></img></span>
+              <div><h3 class="m-0">Secret Prize</h3></div>
+            </div> 
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="site-section" id="track-section" style="height: 150%">
+      <div class="future-blobs">
+        <div class="blob_2" style="width: 30%; height: 30%; margin-left: 7;">
+          <img src="images/virus-2.png" alt="Image">
+        </div>
+        <div class="blob_1">
+          <img src="images/machine1.png" alt="Image" style="width: 70%; height: 70;">
+        </div>
+      </div>
+      <div class="row mb-5 justify-content-center">
+        <div class="col-lg-7 text-center"  data-aos="fade-up" data-aos-delay="">
+          <h2 class="section-title">Треки</h2>
+          <br>
+          <div class="ui last container">
+            <div class="ui three steps">
+              <div class="step">
+                <div class="content">
+                  <h1 class="title">Жизнь после Covid19</h1>
+                  
+                  <p class="description"> Когда-нибудь это закончится, а для быстрого перехода к нормальной жизни могут потребоваться оригинальные идеи. <br>
+                    В любом случае полученный опыт точно пригодится</p>
+                </div>
+              </div>
+              <div class="step">
+                <div class="content">
+                  <h1 class="title">В СТАНКИНе "этого" не хватает</h1>
+                  <p class="description"> Все мы, кто-то чаще, кто-то реже посещаем наш любимый Университет. <br>
+                    Думаем, у многих появлялись мысли: «Почему до сих пор нет "этого"? Это ведь всего лишь несколько часов работы, а как бы удобнее стало!»</p>
+                </div>
+              </div>
+              <div class=" step">
+                <div class="content">
+                  <h1 class="title">Партнерский от BoschRexroth</h1>
+                  <p class="description">Наши друзья из BoschRexroth предложат на Хакатон реальную задачу, с которой они сталкивались. Круто да? <br>Выпускаясь из Станкина, можно будет сказать: "Я принимал участие в решении задачи для крупной компании!"</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+
+    <div class="site-section" id="teachers-section">
+      <div class="container">
+
+        <div class="row mb-5 justify-content-center">
+          <div class="col-lg-7 mb-5 text-center"  data-aos="fade-up" data-aos-delay="">
+            <h2 class="section-title">Жюри</h2>
+            <p></p>
+           <!--<p class="mb-5">фывафвафывафвыафвыафыва</p> --> 
+          </div>
+        </div>
+
+        <div class="row">
+
+          <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="teacher text-center">
+              <img src="images/victor.jpg" alt="Image" class="img-fluid w-50 rounded-circle mx-auto mb-4">
+              <div class="py-2">
+                <h3 class="text-black">Чекрыжов Виктор</h3>
+                <p class="position">"ОблакоГрупп", full-stack  dev</p>
+                <p>Выпускник МГТУ "СТАНКИН"</p>
+              </div>
+            </div>
+          </div>  
+          
+          <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="teacher text-center">
+              <img src="images/Ilya.jpg" alt="Image" class="img-fluid w-50 rounded-circle mx-auto mb-4">
+              <div class="py-2">
+                <h3 class="text-black">Ковалев Илья</h3>
+                <p class="position">"МГТУ СТАНКИН", к.т.н., доцент </p>
+                <p>Выпускник МГТУ "СТАНКИН"</p>
+              </div>
+            </div>
+          </div>  
+          <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="300">
+            <div class="teacher text-center">
+              <img src="images/denis.jpg" alt="Image" class="img-fluid w-50 rounded-circle mx-auto mb-4">
+              <div class="py-2">
+                <h3 class="text-black">Квашнин Денис</h3>
+                <p class="position">"КРОК", DBA и Data Science</p>
+                <p>Выпускник МГТУ "СТАНКИН"</p>
+              </div>
+            </div>
+          </div>
+        </div>
+          <div class="row">
+          
+          <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="teacher text-center">
+              <img src="images/dima.jpg" alt="Image" class="img-fluid w-50 rounded-circle mx-auto mb-4">
+              <div class="py-2">
+                <h3 class="text-black">Чевпетцов Дмитрий</h3>
+                <p class="position">"GarantTrust", бизнес-ангел, PM проекта онлайн-школы "Вектор плюс"</p>
+                <p>Почти выпускник МГТУ "СТАНКИН"</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="teacher text-center">
+              <img src="images/max.jpg" alt="Image" class="img-fluid w-50 rounded-circle mx-auto mb-4">
+              <div class="py-2">
+                <h3 class="text-black">Сонных Максим</h3>
+                <p class="position">"BoschRexroth", руководитель отдела промышленной автоматизации</p>
+                <p>Выпускник МГТУ "СТАНКИН"</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="site-section pb-0" id="why-section">
+      <div class="future-blobs">
+        <div class="blob_2" id="blob_2">
+          <img src="images/covid-19.svg" alt="Image">
+        </div>
+        <div class="blob_1" id="blob_1" style="margin-right: 12%;">
+          <img src="images/Learner-512.webp" alt="Image">
+        </div>
+      </div>
+      <div class="container">
+        <div class="row mb-5 justify-content-center" data-aos="fade-up" data-aos-delay="">
+          <div class="col-lg-7 text-center">
+            <h2 class="section-title">Зачем учавствовать</h2>
+          </div>
+        </div>
+        <div class="row" style="z-index: initial;">
+          <div class="ui vertical stripe segment" style="margin-left: 15%;">
+            <div class="ui text container">
+              <h4 class="ui horizontal header divider">
+                <a href="#">hack</a>
+              </h4>
+              <h3 class="ui header">Попробуй</h3>
+              <p>У тебя всегда была классная идея, а тут и трек подходящий? Проверь ее! Наши эксперты тебе помогут! </p>
+              <br>
+              <br>
+              <h4 class="ui horizontal header divider">
+                <a href="#">in</a>
+              </h4>
+              <h3 class="ui header">Проверь идею</h3>
+              <p>У тебя всегда была классная идея, а тут и трек подходящий? Проверь ее! Наши эксперты тебе помогут! </p>
+              <br>
+              <br>
+              <h4 class="ui horizontal header divider">
+                <a href="#">home</a>
+              </h4>
+              <h3 class="ui header">Развлекись</h3>
+              <p>Устал от самоизоляции, хочется гулять? Сиди дома! Но наши активности тебе помогут:)</p>
+              <br>
+              <br>
+            </div>
+          </div>
+         
+        </div>
+      </div>
+    </div>
+  
+  <div class="site-section" id="partners-section" style="width: 95%" data-aos="fade-up" data-aos-delay="100"> 
+    <br>
+    <div class="container">
+      <div class="row mb-5 justify-content-center" data-aos="fade-up" data-aos-delay="">
+        <div class="col-lg-7 text-center">
+          <h2 class="section-title">Партнеры <span style="color: #7971ea">#hachinhome</span></h2>
+        </div>
+      </div>
+      <div>
+        <img src="images/partners.png" align="center" style="width: 100%; height: 100%;" alt="Image" class="img-fluid"> 
+      </div>  
+    </div> 
+  </div>
+     
+    <footer class="footer-section bg-white" id="footer-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <h3>О хакатоне</h3>
+            <p>Онлайн Хакатон Hack iN Home для студентов КСУ ... и не только</p>
+          </div>
+
+          <div class="col-md-3 ml-auto">
+            <h3>Links</h3>
+            <ul class="list-unstyled footer-links">
+              <li><a href="http://ncsystems.ru/index.php/ru/">Сайт кафедры КСУ</a></li>
+              <li><a href="https://www.boschrexroth.com/ru/ru/">ООО "Бош Рексорт"</a></li>
+              <li><a href="https://stankin.ru/subdivisions/id_125/about">Единый деканат</a></li>
+            </ul>
+          </div>
+
+          <div class="col-md-4">
+            <h3>Subscribe</h3>
+            <p> Для получения подробной информации поделючайся в чат участников #hackinhome</p>
+            <form action="https://t.me/joinchat/OM_I4Bxhv4CPQRj36mVo3Q" target="_blank" class="footer-subscribe">
+              <div class="d-flex mb-5">
+                <input type="submit" class="btn btn-primary rounded-0"  value="Go To Chat">
+              </div>
+            </form>
+          </div>
+         
+        </div>
+      </div>
+    </footer>
+
+  
+    
+  </div> <!-- .site-wrap -->
+
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/jquery-ui.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/jquery.countdown.min.js"></script>
+  <script src="js/bootstrap-datepicker.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/jquery.fancybox.min.js"></script>
+  <script src="js/jquery.sticky.js"></script>
+
+  
+  <script src="js/main.js"></script>
+  <script>
+
+    $(".step").mousemove(function(){
+      $(this).addClass("active");
+    });
+    $(".step").mouseleave(function(){
+      $(this).removeClass("active");
+    })
+    
+  </script>
+  </body>
+</html>
